@@ -1,0 +1,14 @@
+{
+  "name": "protfoliojohndoe",
+  "version": "1.0.0",
+  "description": "Responsive portflio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css --recursive"
+  },
+  "author": "Michael Goetz",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
