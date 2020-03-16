@@ -1,3 +1,26 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn .left {
+    background: url("../img/swodLeft.png"); }
+  .menu-btn .right {
+    background: url("../img/swodRight.png"); }
+  .menu-btn .btn-line {
+    width: 60px;
+    height: 15px;
+    background-size: cover;
+    transition: all 0.5s ease-out; }
+  .menu-btn.close {
+    transform: rotate(720deg); }
+    .menu-btn.close .btn-line:nth-child(1) {
+      transform: rotate(-45deg) translate(-10px, 5px); }
+    .menu-btn.close .btn-line:nth-child(2) {
+      transform: rotate(45deg) translate(-4px, -3px); }
+
 * {
   box-sizing: border-box; }
 

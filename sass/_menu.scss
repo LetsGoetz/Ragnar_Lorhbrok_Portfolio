@@ -1,0 +1,40 @@
+// Menu btn
+
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  @include ease-out;
+
+  .left {
+    background: url("../img/swodLeft.png");
+  }
+
+  .right {
+    background: url("../img/swodRight.png");
+  }
+
+  .btn-line {
+    width: 60px;
+    height: 15px;
+    background-size: cover;
+    @include ease-out;
+  }
+
+  //Rotate into X with menu lines
+  &.close {
+    transform: rotate(720deg);
+
+    .btn-line {
+      &:nth-child(1) {
+        transform: rotate(-45deg) translate(-10px, 5px);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(45deg) translate(-4px, -3px);
+      }
+    }
+  }
+}
