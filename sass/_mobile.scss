@@ -17,6 +17,10 @@
     text-align: center;
 
     .lg-heading {
+      font-size: 4rem;
+    }
+
+    .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
     }
@@ -71,5 +75,9 @@
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .lg-heading {
+    font-size: 3rem;
   }
 }
